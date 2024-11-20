@@ -14,3 +14,21 @@ TASK 1: Set up project environment and tools
   - Resolved initial issues with 'git init' and successfully set up version control with all files staged for the first commit.
 
 Project environment and tools are now fully configured.
+
+TASK 2: Set up server structure and initialize key files
+
+- **Challenges with directory creation**:
+  - Encountered PowerShell-specific syntax issues when attempting to use Bash-style `mkdir` commands.
+  - Resolved by leveraging a PowerShell loop to create the necessary directories (`routes`, `controllers`, `db`, `middleware`, `tests`).
+
+- **Initializing server structure**:
+  - Successfully created key server directories for modular development.
+  - Initialized essential server files:
+    - `server/app.js` (entry point for the backend)
+    - `server/db/database.js` (database configuration)
+    - `server/routes/flashcards.js` (routing logic)
+    - `server/controllers/flashcardsController.js` (controller logic)
+
+- **Key accomplishments**:
+  - Established a modular and scalable server structure to support feature development.
+  - Ensured smooth file creation and directory organization for better maintainability.
