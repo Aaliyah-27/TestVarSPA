@@ -32,3 +32,19 @@ TASK 2: Set up server structure and initialize key files
 - **Key accomplishments**:
   - Established a modular and scalable server structure to support feature development.
   - Ensured smooth file creation and directory organization for better maintainability.
+
+
+TAsk 3: Project structure, Node.js installation, and database configuration
+
+- **Node.js installation**: Resolved issues with 'npm' and 'node' commands not being recognized by installing Node.js using 'winget'.
+- **Project structure**: Created necessary directories (`server/routes`, `server/controllers`, `server/db`, `server/middleware`, `server/tests`) and initialized files (`app.js`, `database.js`, `flashcards.js`, `flashcardsController.js`) for the backend setup.
+- **Database setup**: Implemented SQLite3 database with a 'flashcards' table to manage flashcard data.
+- **Package.json configuration**: Added 'start' script in `package.json` to run the app using 'node server/app.js'. 
+- **Dependencies**: Installed essential dependencies (`express`, `sqlite3`, `dotenv`, `jest`, `supertest`, etc.) to facilitate backend functionality and testing.
+
+**Challenges and resolutions**:
+- Overcame issues with 'npm' and 'node' not being recognized by successfully installing Node.js via winget.
+- Resolved PowerShell directory creation issues by using a custom loop instead of unsupported syntax.
+- Fixed 'Missing script: start' error by adding 'start' script to `package.json`.
+
+Project setup is now complete, and the development environment is ready for further implementation.
